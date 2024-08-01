@@ -1,24 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <!-- PON UN FAVICON!!! -->
-    <link rel="icon" type="image/svg+xml" href="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CAMBIA EL TITLE!!! -->
-    <title>Vite Template</title>
-  </head>
-  <body>
-    <main class="main"> 
-      <span class="level">SIMPLE</span>
-      <div>
-       <a href="simple.html"><img src="assets/images/image-rules.svg" alt=""></a> 
-      </div>
-      <div>
-        <a href="advanced.html"><img src="assets/images/image-rules-bonus.svg" alt=""></a> 
-      </div>
-      <span class="level">ADVANCED</span>
-    </main>
-    <script type="module" src="./js/index.js"></script>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/assets/images/vite.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/base/normalize.css" />
+		<link rel="stylesheet" href="css/base/base.css" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<title>Vite App</title>
+	</head>
+	<body>
+		<div class="home-container">
+			<div class="game-modes">
+				<a href="html/simple.html">
+					<div class="game-modes__item">
+						<img
+							src="./assets/images/image-rules.svg"
+							alt="Simple mode rules"
+						/>
+						<span>SIMPLE MODE</span>
+					</div>
+				</a>
+				<a href="html/advanced.html">
+					<div class="game-modes__item">
+						<img
+							src="./assets/images/image-rules-bonus.svg"
+							alt="Advanced mode rules"
+						/>
+						<span>ADVANCED MODE</span>
+					</div>
+				</a>
+			</div>
+		</div>
+		<script type="module" src="./js/index.js"></script>
+	</body>
 </html>
